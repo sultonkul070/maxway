@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Way</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header class="container-fluid px-0" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/header/logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="images/header/toggle.svg" alt="" />
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto align-items-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Menyu<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bolalar uchun</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Filiallar</a>
+              </li>
+              <li class="nav-item">
+                <a class="tel-link" href="#">
+                  <img src="images/header/tel.svg" alt="" />
+
+                  <div class="d-block">
+                    <p>(+99871)</p>
+                    <p>200-54-00</p>
+                  </div>
+                </a>
+              </li>
+              <li class="drop"></li>
+              <li class="nav-item">
+                <a class="bag-link" href="#">
+                  <div class="nav-img">
+                    <img src="images/header/bag.svg" alt="" />
+                    <div class="badge badge-pill">3</div>
+                  </div>
+                  <div class="d-block">
+                    <p>Korzina</p>
+                    <p>125,400 UZS</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid position-relative">
+        <div class="row no-gutters">
+          <div class="offset-lg-5 col-lg-7">
+            <img src="images/header/burger.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container px-0">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <h1>Siz izlagan mazzali ta’mlar</h1>
+            <p>
+              When an unknown printer took a galley of type scrambled it to make
+              a type specimen
+            </p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-block">
+            <div class="card">
+              <button class="btn">
+                <img src="images/header/fire.png" alt="" />Yangi
+              </button>
+              <h1>
+                <span>PIT</span>
+                <span>-SA</span>
+              </h1>
+              <img src="images/header/pitsa.png" alt="" />
+            </div>
+          </div>
+          <div class="d-block">
+            <div class="card">
+              <button class="btn">
+                <img src="images/header/rocket.png" alt="" />Ko’p sotilgan
+              </button>
+              <h1>
+                <span>KOM</span>
+                <span>-BO</span>
+              </h1>
+              <img src="images/header/kombo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="tab-box">
+      <div class="container">
+        <div class="tab-header">
+          <div class="tab-scroll">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="home-tab"
+                  data-toggle="tab"
+                  href="#home"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  Barchasi
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="profile-tab"
+                  data-toggle="tab"
+                  href="#profile"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Pitsa
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="contact-tab"
+                  data-toggle="tab"
+                  href="#contact"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  Burger
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="kombo-tab"
+                  data-toggle="tab"
+                  href="#kombo"
+                  role="tab"
+                  aria-controls="kombo"
+                  aria-selected="false"
+                >
+                  Kombo
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="salat-tab"
+                  data-toggle="tab"
+                  href="#salat"
+                  role="tab"
+                  aria-controls="salat"
+                  aria-selected="false"
+                >
+                  Salat
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="sweets-tab"
+                  data-toggle="tab"
+                  href="#sweets"
+                  role="tab"
+                  aria-controls="sweets"
+                  aria-selected="false"
+                >
+                  Shirinliklar
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="drink-tab"
+                  data-toggle="tab"
+                  href="#drink"
+                  role="tab"
+                  aria-controls="drink"
+                  aria-selected="false"
+                >
+                  Ichimliklar
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a class="nav-link filtr">
+            <span class="icon icon-filtr"></span>
+            Filtr
+          </a>
+        </div>
+
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <div class="pitsa">
+              <h1>Pitsa</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/gavaya.png"
+                        alt="gavaya"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Gavaya</h2>
+                        <img src="images/pishloq.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica.png"
+                        alt="mexica"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Mexica</h2>
+                        <img src="images/qalampir.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>53,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/hot%20achchiko.png"
+                        alt="hot-achchiko"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Hot achchiko</h2>
+                        <img src="images/salat-barg.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>64,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-lg-block d-none">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica1.png"
+                        alt="mexica"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Hot achchiko</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-lg-block d-none">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/hot%20achchiko.png"
+                        alt="hot-achchiko"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Apocalipo</h2>
+                        <img src="images/qalampir.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-lg-block d-none">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica1.png"
+                        alt="Sosiskacho"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Sosiskacho</h2>
+                        <img src="images/salat-barg.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-lg-block d-none">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica.png"
+                        alt="mexica"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Mexica</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>53,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="col-12 read-more d-lg-none d-block">
+                  Ko‘proq ko‘rish
+                </button>
+              </div>
+            </div>
+            <div class="burger">
+              <h1>Burger</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Cheeseburger</h2>
+                        <img src="images/pishloq.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Chili burger</h2>
+                        <img src="images/qalampir.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Hamburger</h2>
+                        <img src="images/pishloq.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-lg-block d-none">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Double Burger</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="col-12 read-more d-lg-none d-block">
+                  Ko‘proq ko‘rish
+                </button>
+              </div>
+            </div>
+            <div class="kombo">
+              <h1>Kombo</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/kombo.png"
+                        alt="gavaya"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Kombo-1</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>25,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/kombo-2.png"
+                        alt="kombo"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Kombo-2</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img class="product" src="images/kombo.png" alt="kombo" />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Kombo-3</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>30,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="drink">
+              <h1>Ichimliklar</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/sprite.png"
+                        alt="kombo"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Sprite 1L</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>6,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/coca-cola.png"
+                        alt="kombo"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Coca cola 1,5L</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>9,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img class="product" src="images/fanta.png" alt="kombo" />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Fanta 1L</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>6,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
+            <div class="pitsa">
+              <h1>Pitsa</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/gavaya.png"
+                        alt="gavaya"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Gavaya</h2>
+                        <img src="images/pishloq.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica.png"
+                        alt="mexica"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Mexica</h2>
+                        <img src="images/qalampir.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>53,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/hot%20achchiko.png"
+                        alt="hot-achchiko"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Hot achchiko</h2>
+                        <img src="images/salat-barg.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>64,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica1.png"
+                        alt="mexica"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Hot achchiko</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/hot%20achchiko.png"
+                        alt="hot-achchiko"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Apocalipo</h2>
+                        <img src="images/qalampir.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica1.png"
+                        alt="Sosiskacho"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Sosiskacho</h2>
+                        <img src="images/salat-barg.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>45,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/mexica.png"
+                        alt="mexica"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Mexica</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>53,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+          >
+            <div class="burger">
+              <h1>Burger</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Cheeseburger</h2>
+                        <img src="images/pishloq.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Chili burger</h2>
+                        <img src="images/qalampir.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                      <div class="my-badge">
+                        <img src="images/new.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Hamburger</h2>
+                        <img src="images/pishloq.png" alt="" />
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/cheeseburger.png"
+                        alt="gavaya"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Double Burger</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="kombo"
+            role="tabpanel"
+            aria-labelledby="kombo-tab"
+          >
+            <div class="kombo">
+              <h1>Kombo</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/kombo.png"
+                        alt="gavaya"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Kombo-1</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>25,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/kombo-2.png"
+                        alt="kombo"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Kombo-2</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>23,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img class="product" src="images/kombo.png" alt="kombo" />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Kombo-3</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>30,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="salat"
+            role="tabpanel"
+            aria-labelledby="salat-tab"
+          >
+            <div class="salad">
+              <h1>Salatlar</h1>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="sweets"
+            role="tabpanel"
+            aria-labelledby="sweets-tab"
+          >
+            <div class="sweets">
+              <h1>Shirinliklar</h1>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="drink"
+            role="tabpanel"
+            aria-labelledby="drink-tab"
+          >
+            <div class="drink">
+              <h1>Ichimliklar</h1>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/sprite.png"
+                        alt="kombo"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Sprite 1L</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>6,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img
+                        class="product"
+                        src="images/coca-cola.png"
+                        alt="kombo"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Coca cola 1,5L</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>9,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="my-card d-flex">
+                    <div class="img">
+                      <img class="product" src="images/fanta.png" alt="kombo" />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <h2>Fanta 1L</h2>
+                      </div>
+
+                      <p>
+                        Горячая закуска с митболами из говядины, томатами,
+                        моцареллой и соусом чипотле
+                      </p>
+                      <div class="button">
+                        <span>6,000 UZS</span>
+                        <button>
+                          <span class="icon icon-path"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="application container-fluid px-0">
+      <div class="container-fluid position-relative">
+        <div class="row w-100 no-gutters">
+          <div class="col-lg-7 p-0 offset-lg-5">
+            <img src="images/application/smartphone.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h1>Mobil ilovamiz orqali buyurtma berish yanada osonroq</h1>
+            <button class="btn">
+              <img src="images/application/googleplay.svg" alt="" />
+            </button>
+            <button class="btn">
+              <img src="images/application/appstore.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <img src="images/footer/Group Copy 2.svg" alt="Max-Way" />
+          </div>
+          <div class="col-sm-2 ml-auto link2 nma">
+            <p>Asosiy</p>
+            <ul>
+              <li>Kompaniya haqida</li>
+              <li>Filiallar</li>
+              <li>Bolalar uchun</li>
+            </ul>
+          </div>
+          <div class="col-sm-2 link2 nma">
+            <p>Qo'shimcha</p>
+            <ul>
+              <li>Menyu</li>
+              <li>Bonusli karta</li>
+              <li>Bu qanday ishlaydi?</li>
+            </ul>
+          </div>
+          <div class="col-sm-3 nma tel offset-3">
+            <h5>Biz bilan aloqa</h5>
+            <h6>(+998 71) 200-54-00</h6>
+            <p>
+              100011, Toshkent sh. Shayxontohur tumani, Zarqaynar ko’chasi,
+              3B-uy
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="last">
+          <div class="row">
+            <div class="dropdown d-none">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Asosiy
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Kompaniya haqida</a>
+                <a class="dropdown-item" href="#">Filiallar</a>
+                <a class="dropdown-item" href="#">Bolalar uchun</a>
+              </div>
+            </div>
+            <div class="dropdown d-none">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Qo’shimcha
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <a class="dropdown-item" href="#">Menyu</a>
+                <a class="dropdown-item" href="#">Bonusli karta</a>
+                <a class="dropdown-item" href="#">Bu qanday ishlaydi?</a>
+              </div>
+            </div>
+            <div class="col-sm-3 d-none nmadur nim offset-3">
+              <h6>(+998 71) 200-54-00</h6>
+              <p>
+                100011, Toshkent sh. Shayxontohur tumani, Zarqaynar ko’chasi,
+                3B-uy
+              </p>
+            </div>
+
+            <div class="col-4 nma text">
+              <p>&copy; Maxway, 2020</p>
+            </div>
+            <div class="links col-md-3 offset-5">
+              <span>
+                <img src="images/footer/Group.svg" alt="youtube" />
+              </span>
+              <span>
+                <img src="images/footer/Group (1).svg" alt="youtube" />
+              </span>
+              <span>
+                <img src="images/footer/Group (2).svg" alt="youtube" />
+              </span>
+              <span>
+                <img src="images/footer/Group (3).svg" alt="youtube" />
+              </span>
+              <span>
+                <img
+                  src="images/footer/tiktok-share-icon-black-seeklogo.com.svg"
+                  alt="youtube"
+                />
+              </span>
+            </div>
+            <div class="col-4 maxway d-none text">
+              <p>© Maxway, 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
